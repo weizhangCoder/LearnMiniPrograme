@@ -12,7 +12,8 @@ Page({
       { id: 111, name: 'Jame', age: 20 },
       { id: 112, name: 'Weide', age: 27 },
       { id: 113, name: 'Zhang', age: 21 }
-    ]
+    ],
+    counter:0
   },
 
   /**

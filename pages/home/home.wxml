@@ -2,18 +2,13 @@
 <text class='title'>Hello Word</text>
 <text>button</text>
 <button size='mini'>按钮</button>
-<<<<<<< HEAD
+
 <view>我的名字：{{name}}</view>
 <view>我的年龄：{{age + 50}}</view>
-<view>{{students[0].name}}</view>
+<!-- <view>{{students[0].name}}</view>
 <view>{{students[1].name}}</view>
 <view>{{students[2].name}}</view>
-<view>{{students[3].name}}</view>
+<view>{{students[3].name}}</view> -->
 
 <view wx:for="{{students}}">{{item.name}}-{{item.age}}</view>
-=======
-<text>哈哈哈哈</text>
-<text>哈哈哈哈</text>
-<view>数据库发动机</view>
-<view>副书记方哈萨克结构化动机</view>
->>>>>>> a9a3406abdec319747a67028a7fdfe54ac541826
+
