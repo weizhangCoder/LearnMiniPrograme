@@ -12,3 +12,8 @@
 
 <view wx:for="{{students}}">{{item.name}}-{{item.age}}</view>
 
+<view>当前计数器：{{counter}}</view>
+
+<button size='mini' bindtap='handlebtnClick'>+</button>
+<button size='mini' bindtap='handlesamllClick'>-</button>
+
